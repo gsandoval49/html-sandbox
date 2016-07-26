@@ -7,7 +7,9 @@
 		<!--rel means relationship and means style sheet-->
 		<!--if you fail to do rel it will break your style sheet-->
 		<link href="css/style.css" rel="stylesheet" type="text/css"/>
-		
+
+		<!--adding custom JavaScript-->
+		<script src="js/custom.js" type="text/javascript"></script>
 		<title>My Web Page</title>
 	</head>
 	<body>
@@ -17,6 +19,38 @@
 		</header>
 		<!--start main content here-->
 		<main>
+
+			<!-- this is sandbox from the lynda.com tutorial. -->
+			<!-- https://www.lynda.com/MySQL-tutorials/Variables/119003/136940-4.html -->
+			<?php
+			$var1 = 10;
+			echo $var1;
+
+			echo "<br />";
+			echo "<br />";
+
+			$var1 = 100;
+			echo $var1;
+			echo "<br />"
+
+			?>
+
+			<?php
+			/*this is using a string for phrases. */
+			$greeting = "Hello";
+			$target = "World";
+			$phrase = $greeting . " " . $target;
+			echo $phrase;
+			?>
+			<br />
+			<?php
+			echo "$phrase Again<br />";
+
+			?>
+
+
+
+
 			<!--.comment.text.goes.here. you can use this for php elements if needed.-->
 			<p id="first-paragraph">f;awoeifjawoeifjaw;ofjaw;oija;awifja;ow ;aoweifja;woifj wa;aowfeijaw;ofjaweo;f aw;oif;oiajwf;eojaw;eofij awf;oaiwj ef;awoijef;aowjef ;awoifj a;wojef a;woiefj;awoifj aw;oifja;owefj ;oawf</p>
 			<h2 class="pretty-title">Welcome to my web page</h2>
