@@ -1,5 +1,41 @@
 /* style sheet */
 
 .header {
-    background-color: #a96f6f;
+    background-color: maroon;
+}
+
+h1 {
+    background-color: #c78282;
+}
+
+/* column color */
+.col-md-4 {
+    background-color: aqua;
+    border: 5px;
+    margin: 5rem;
+}
+
+/***
+* Flexbox Sticky Footer
+* http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
+***/
+
+/*corrects IE min-height bug*/
+html { display: flex;}
+body { width: 100%;}
+
+.sfooter {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.sfooter-content {
+    flex: 1 0 auto;
+}
+
+/* solution based on phil walton  for flexbox sticky footer*/
+footer {
+    background-color: black;
+    color: white;
 }
