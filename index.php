@@ -102,13 +102,13 @@
 
 			<!-- 2nd row of columns-->
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col-md-3">
 					col 1
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-3">
 					col 2
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-3">
 					col 3
 				</div>
 			</div>
