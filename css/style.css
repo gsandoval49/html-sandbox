@@ -11,8 +11,8 @@ h1 {
 /* column color */
 .col-md-4 {
     background-color: aqua;
-    border: 5px;
-    margin: 5rem;
+    border: 1px solid grey;
+    margin: 0rem;
 }
 
 /***

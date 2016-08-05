@@ -46,6 +46,7 @@
 
 	<!--begin sticky footer-->
 	<div class="sfooter-content">
+
 	<header>
 		<div class="container">
 			<div class="row">
@@ -102,13 +103,13 @@
 
 			<!-- 2nd row of columns-->
 			<div class="row">
-				<div class="col-md-3">
+				<div class="col-md-4">
 					col 1
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-4">
 					col 2
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-4">
 					col 3
 				</div>
 			</div>
